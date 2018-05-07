@@ -13,6 +13,8 @@
 		E1C2F761209FEBDC007CE961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F760209FEBDC007CE961 /* Assets.xcassets */; };
 		E1C2F764209FEBDC007CE961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F762209FEBDC007CE961 /* LaunchScreen.storyboard */; };
 		E1C2F767209FEBDC007CE961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F766209FEBDC007CE961 /* main.m */; };
+		E1C2F76F209FEC16007CE961 /* UIView+KNIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F76E209FEC16007CE961 /* UIView+KNIBInspectable.m */; };
+		E1C2F773209FEF2F007CE961 /* KNUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F772209FEF2F007CE961 /* KNUIButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		E1C2F763209FEBDC007CE961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1C2F765209FEBDC007CE961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1C2F766209FEBDC007CE961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1C2F76D209FEC16007CE961 /* UIView+KNIBInspectable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KNIBInspectable.h"; sourceTree = "<group>"; };
+		E1C2F76E209FEC16007CE961 /* UIView+KNIBInspectable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KNIBInspectable.m"; sourceTree = "<group>"; };
+		E1C2F771209FEF2F007CE961 /* KNUIButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNUIButton.h; sourceTree = "<group>"; };
+		E1C2F772209FEF2F007CE961 /* KNUIButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNUIButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				E1C2F757209FEBDC007CE961 /* AppDelegate.h */,
+				E1C2F770209FEC1F007CE961 /* KNIBInspectableEx */,
 				E1C2F758209FEBDC007CE961 /* AppDelegate.m */,
 				E1C2F75A209FEBDC007CE961 /* ViewController.h */,
 				E1C2F75B209FEBDC007CE961 /* ViewController.m */,
@@ -69,6 +76,17 @@
 				E1C2F766209FEBDC007CE961 /* main.m */,
 			);
 			path = KNIBInspectable;
+			sourceTree = "<group>";
+		};
+		E1C2F770209FEC1F007CE961 /* KNIBInspectableEx */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2F771209FEF2F007CE961 /* KNUIButton.h */,
+				E1C2F772209FEF2F007CE961 /* KNUIButton.m */,
+				E1C2F76D209FEC16007CE961 /* UIView+KNIBInspectable.h */,
+				E1C2F76E209FEC16007CE961 /* UIView+KNIBInspectable.m */,
+			);
+			path = KNIBInspectableEx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C2F75C209FEBDC007CE961 /* ViewController.m in Sources */,
+				E1C2F773209FEF2F007CE961 /* KNUIButton.m in Sources */,
+				E1C2F76F209FEC16007CE961 /* UIView+KNIBInspectable.m in Sources */,
 				E1C2F767209FEBDC007CE961 /* main.m in Sources */,
 				E1C2F759209FEBDC007CE961 /* AppDelegate.m in Sources */,
 			);
